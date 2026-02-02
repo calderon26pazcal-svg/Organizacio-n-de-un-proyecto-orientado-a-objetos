@@ -39,3 +39,28 @@ Este repositorio incluye:
    ```bash
    git push -u origin main
 
+## Personalización del Dashboard
+
+**Estudiante:** Marilin Calderon  
+**Asignatura:** Programación Orientada a Objetos  
+**Institución:** Universidad Estatal Amazónica  
+
+### Descripción de los cambios realizados
+Para esta tarea se realizaron adaptaciones al archivo `Dashboard.py` con el fin de personalizarlo para la gestión de actividades del curso. Las principales modificaciones fueron:
+
+- Personalización del Dashboard con el nombre del estudiante y la asignatura.
+- Implementación de un sistema de gestión de tareas mediante consola.
+- Almacenamiento de tareas utilizando un archivo `tasks.json` para mantener la información de forma persistente.
+- Opciones para:
+  - Ver tareas registradas.
+  - Agregar nuevas tareas.
+  - Marcar tareas como completadas.
+  - Eliminar tareas.
+- Validación de la prioridad de las tareas (Alta, Media o Baja).
+- Organización del código mediante funciones y comentarios descriptivos.
+
+### Ejecución del programa
+Para ejecutar el Dashboard, ubíquese en la carpeta del proyecto y ejecute el siguiente comando:
+
+```bash
+python Dashboard.py
